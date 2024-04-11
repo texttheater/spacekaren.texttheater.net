@@ -1,4 +1,15 @@
 body {
-	font-size: xx-large;
 	text-align: center;
+}
+
+main {
+	font-size: xx-large;
+}
+
+footer {
+	font-size: xx-small;
+}
+
+footer a {
+	color: #aaa;
 }

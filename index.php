@@ -15,5 +15,13 @@ $l = $last[array_rand($last, 1)];
 <html lang="de">
 <title>Space Karen Name Generator</title>
 <link rel ="stylesheet" type="text/css" href="style.css">
-<p><?= $f ?> <?= $l ?></p>
-<a href="https://github.com/texttheater/spacekaren.texttheater.net"><img style="position: absolute; top: 0; right: 0; border: 0;" src="forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+<main>
+    <p><?= $f ?> <?= $l ?></p>
+</main>
+<footer>
+    <p>
+        <a href="https://texttheater.net/impressum">Impressum</a>
+        <a href="https://texttheater.net/datenschutzerklaerung">Datenschutz</a>
+        <a href="https://github.com/texttheater/spacekaren.texttheater.net">Fork me on GitHub</a>
+    </p>
+</footer>
